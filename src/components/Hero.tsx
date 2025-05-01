@@ -14,12 +14,12 @@ const Hero = () => {
               Streamline your bus operations with real-time tracking, digital ticketing, and automated verification systems. The future of public transportation is here.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
-              <button className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors text-lg font-medium">
+              <a href='' target='_blank' className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors text-lg font-medium">
                 Get Started
-              </button>
-              <button className="border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-lg hover:bg-blue-50 transition-colors text-lg font-medium">
+              </a>
+              {/* <button className="border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-lg hover:bg-blue-50 transition-colors text-lg font-medium">
                 Watch Demo
-              </button>
+              </button> */}
             </div>
             <div className="mt-12 grid grid-cols-3 gap-6">
               <div className="flex items-center">
@@ -42,21 +42,21 @@ const Hero = () => {
                 <div className="flex items-center justify-between">
                   <div>
                     <p className="text-sm opacity-80">Current Location</p>
-                    <p className="font-medium">Central Station</p>
+                    <p className="font-medium">Ring Road</p>
                   </div>
                   <MapPin className="h-6 w-6" />
                 </div>
                 <div className="flex items-center justify-between">
                   <div>
                     <p className="text-sm opacity-80">Next Stop</p>
-                    <p className="font-medium">Downtown Terminal</p>
+                    <p className="font-medium">New Benin Market</p>
                   </div>
                   <Clock className="h-6 w-6" />
                 </div>
                 <div className="flex items-center justify-between">
                   <div>
                     <p className="text-sm opacity-80">Passengers</p>
-                    <p className="font-medium">23/45</p>
+                    <p className="font-medium">11/20</p>
                   </div>
                   <QrCode className="h-6 w-6" />
                 </div>

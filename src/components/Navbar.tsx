@@ -31,9 +31,9 @@ const Navbar = () => {
                 {item.name}
               </a>
             ))}
-            <button className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors">
+            <a href=''  target="_blank" className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors">
               Get Started
-            </button>
+            </a>
           </div>
 
           {/* Mobile Navigation Button */}
