@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Bus className="h-8 w-8 text-blue-600" />
-            <span className="ml-2 text-xl font-bold text-gray-800">TransitPro</span>
+            <span className="ml-2 text-xl font-bold text-gray-800">TransEdo</span>
           </div>
           
           {/* Desktop Navigation */}
