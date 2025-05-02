@@ -9,7 +9,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center">
               <Bus className="h-8 w-8 text-blue-400" />
-              <span className="ml-2 text-xl font-bold">TransitPro</span>
+              <span className="ml-2 text-xl font-bold">TransEdo</span>
             </div>
             <p className="mt-4 text-gray-400">
               Transforming public transportation with innovative management solutions.
@@ -43,7 +43,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} TransitPro. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} TransEdo. All rights reserved.</p>
         </div>
       </div>
     </footer>
