@@ -14,11 +14,11 @@ const Contact = () => {
             <div className="mt-8 space-y-6">
               <div className="flex items-center">
                 <Mail className="h-6 w-6 text-blue-600" />
-                <span className="ml-3 text-gray-600">contact@transitpro.com</span>
+                <span className="ml-3 text-gray-600">contact@transedo.com</span>
               </div>
               <div className="flex items-center">
                 <Phone className="h-6 w-6 text-blue-600" />
-                <span className="ml-3 text-gray-600">+234 9056547738</span>
+                <span className="ml-3 text-gray-600">+234 9056529919</span>
               </div>
               <div className="flex items-center">
                 <MessageSquare className="h-6 w-6 text-blue-600" />
